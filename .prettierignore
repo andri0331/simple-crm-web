@@ -1,0 +1,25 @@
+# Ignore build and output directories
+dist/
+build/
+coverage/
+
+# Ignore dependency directories (node_modules is ignored by default, but good to state)
+node_modules/
+
+# Ignore specific files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore all markdown files except the main README
+*.md
+!README.md
+
+# Ignore an entire folder of auto-generated or media assets
+public/assets/
+src/generated/
+
+# Ignore specific file extensions globally
+*.log
+*.svg
+*.pdf
